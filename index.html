@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>On Click</title>
+	<link href="Style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+	<div class="btn" onClick="ani()">
+		Start
+	</div>
+	<div class="btn" onClick="ani2()">
+		Exit
+	</div>
+
+	<div id="fidgetSpinner">
+		Don't<br> get Dizzy
+	</div>
+
+	<script type="text/javascript">
+		function ani(){
+
+			document.getElementById('fidgetSpinner').style.display = 'block';
+		}
+		function ani2(){
+			document.getElementById('fidgetSpinner').style.display = 'none';
+		}
+	</script>
+</body>
+</html>
